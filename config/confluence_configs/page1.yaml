@@ -1,0 +1,9 @@
+id: "123456"
+handler_id: "handler_id_1"
+url: "https://your-confluence-site/rest/api/content/123456"
+cache_duration: 300  # 缓存时间（秒）
+tables:
+  - name: "Table1"
+    columns: ["Column1", "Column2", "Column3"]
+  - name: "Table2"
+    columns: ["ColumnA", "ColumnB", "ColumnC"]

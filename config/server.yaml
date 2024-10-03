@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  log_level: "info"
+  websocket_path: "/ws"
+
+confluence_configs:
+  - "./config/confluence_configs/page1.yaml"
+  - "./config/confluence_configs/page2.yaml"
+
+websocket_handlers:
+  - action: "read_config"
+    handlers:
+      - "handler_id_1"
+      - "handler_id_2"

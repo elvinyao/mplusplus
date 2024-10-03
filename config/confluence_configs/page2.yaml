@@ -1,0 +1,7 @@
+id: "789012"
+handler_id: "handler_id_2"
+url: "https://your-confluence-site/rest/api/content/789012"
+cache_duration: 600
+tables:
+  - name: "Table3"
+    columns: ["ColumnX", "ColumnY", "ColumnZ"]
